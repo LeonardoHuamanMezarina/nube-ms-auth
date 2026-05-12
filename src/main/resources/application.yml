@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: vg-ms-authService
+
+  r2dbc:
+    url: r2dbc:postgresql://ep-sweet-cherry-ac1jujjy-pooler.sa-east-1.aws.neon.tech/login?sslmode=require
+    username: neondb_owner
+    password: npg_JPQSp1e0TCj0
+
+# JWT Config
+jwt:
+  secret: prs-parroquial-system-secret-key-2024-muy-larga-para-hmac
+  expiration-ms: 86400000 # 24 horas
