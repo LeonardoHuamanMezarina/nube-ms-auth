@@ -1,10 +1,10 @@
-package vallegrande.edu.pe.demon;
+package vallegrande.edu.pe.auth;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemonApplicationTests {
+class AuthApplicationTests {
 
 	@Test
 	void contextLoads() {
